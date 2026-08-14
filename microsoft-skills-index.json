@@ -1,0 +1,2114 @@
+[
+  {
+    "name": "acquire-codebase-knowledge",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "acquire-codebase-knowledge",
+    "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document this architecture\", \"onboard me to this repo\", or \"create codebase docs\". Do not trigger for routine feature implementation, bug fixes, or narrow code edits unless the user asks for repository-level discovery.'",
+    "file_count": 11,
+    "sha256": "94a1da1b609e31d3ac4629f4670784c63675639955965b503d10928035b4f727"
+  },
+  {
+    "name": "acreadiness-generate-instructions",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "acreadiness-generate-instructions",
+    "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructions.md files with applyTo globs for monorepos. Use after running /acreadiness-assess to close gaps in the AI Tooling pillar.'",
+    "file_count": 1,
+    "sha256": "8a3887176a8a1afd9552239a0aa29dba8c7bb79c599c3c1d8ad95f777a65045b"
+  },
+  {
+    "name": "adobe-illustrator-scripting",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "adobe-illustrator-scripting",
+    "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices.'",
+    "file_count": 5,
+    "sha256": "e7688805811c03b1aec3b1d8e4bdac507018723b3b3ebd2f3b93958d874cd1f9"
+  },
+  {
+    "name": "ai-team-orchestration",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "ai-team-orchestration",
+    "description": "Bootstrap and run a lightweight multi-agent development team. Use when starting or adopting a project, planning work, coordinating implementation and optional QA, brainstorming with distinct perspectives, or preserving context across sessions.'",
+    "file_count": 5,
+    "sha256": "7072efd512ae4587d92f442fc639c7534fe3ce99e32e4b27b51ebd48cf92b975"
+  },
+  {
+    "name": "anti-ui-slop",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "anti-ui-slop",
+    "description": "Stop Codex, GitHub Copilot, Claude Code, and Cursor from shipping generic UI. Use UIZZE’s public catalogue of 800,000+ real web and iOS screens to extract product-specific design decisions and enforce a hard finish gate for web and iOS interfaces.'",
+    "file_count": 1,
+    "sha256": "c3cb98fb90778dee505f15739d808c1f37cad98dff11644cd2d30bb448b6eaee"
+  },
+  {
+    "name": "appinsights-instrumentation",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "appinsights-instrumentation",
+    "description": "Instrument a webapp to send useful telemetry data to Azure App Insights'",
+    "file_count": 8,
+    "sha256": "f4b4360b7b92859ae94bbf3147474515e6d3a060518bdb35bcf0af6771b1001d"
+  },
+  {
+    "name": "architecture-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "architecture-blueprint-generator",
+    "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.'",
+    "file_count": 1,
+    "sha256": "9b20f13d1d96ba1c2550e1ce535f932e943c42939d3fae906a9e0d6c1bfb471a"
+  },
+  {
+    "name": "arduino-azure-iot-edge-integration",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "arduino-azure-iot-edge-integration",
+    "description": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production guardrails.'",
+    "file_count": 3,
+    "sha256": "64809a8d020fb05e44edb9db1a2fe8f59fed7f232cfe07bb42876cbeb8ce643d"
+  },
+  {
+    "name": "arize-ai-provider-integration",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "arize-ai-provider-integration",
+    "description": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM provider (e.g. OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Vertex AI, Gemini, NVIDIA NIM). Use when the user mentions AI integration, LLM provider credentials, create integration, list integrations, update credentials, delete integration, or connecting an LLM provider to Arize.",
+    "file_count": 3,
+    "sha256": "cafea597cbdeb50f97edd28ce87ae1761bd9d88f9648149561ed2832e630f834"
+  },
+  {
+    "name": "arize-link",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "arize-link",
+    "description": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. Use when the user wants to link to or open a trace, span, session, dataset, evaluator, or annotation config in the Arize UI.",
+    "file_count": 2,
+    "sha256": "0471b36681aad8947b5e44ee27d506181553e97bad4770665aa232a163d8e556"
+  },
+  {
+    "name": "aspire",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "visual-studio-vscode"
+    ],
+    "source_path": "aspire",
+    "description": "Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment. Use when the user asks to create, run, debug, configure, deploy, or troubleshoot an Aspire distributed application.'",
+    "file_count": 10,
+    "sha256": "edef54822bd9152a6ff28d0491cfda955b74716d877d024b78b3f009ca9a873c"
+  },
+  {
+    "name": "aspnet-minimal-api-openapi",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "aspnet-minimal-api-openapi",
+    "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation'",
+    "file_count": 1,
+    "sha256": "2c4b990eba7b246b17c043a60b85f0910a98ce5e8aad13b92e34c260fdf23d4b"
+  },
+  {
+    "name": "autoresearch",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "autoresearch",
+    "description": "Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals, measurable metrics, and scope constraints, then runs an autonomous loop of code changes, testing, measuring, and keeping/discarding results. Inspired by Karpathy''s autoresearch. USE FOR: autonomous improvement, iterative optimization, experiment loop, auto research, performance tuning, automated experimentation, hill climbing, try things automatically, optimize code, run experiments, autonomous coding loop. DO NOT USE FOR: one-shot tasks, simple bug fixes, code review, or tasks without a measurable metric.'",
+    "file_count": 1,
+    "sha256": "8bfae087ef27eb37092d94caf1da3406b500aa908756772bb1349a1ac70823dd"
+  },
+  {
+    "name": "aws-cdk-python-setup",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "aws-cdk-python-setup",
+    "description": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage dependencies, and deploy to AWS.",
+    "file_count": 1,
+    "sha256": "6aa92139f8058346ee07e49a9f2bdfb6e743ed128eeab86a6176f86e3fc080a4"
+  },
+  {
+    "name": "az-cost-optimize",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "az-cost-optimize",
+    "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.'",
+    "file_count": 1,
+    "sha256": "4bad09d0db105898326d119abc6eeffdbcdb1f8026d6e793ced7ef9e9f50dad7"
+  },
+  {
+    "name": "azure-architecture-autopilot",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows",
+      "microsoft-ai-data"
+    ],
+    "source_path": "azure-architecture-autopilot",
+    "description": ">",
+    "file_count": 18,
+    "sha256": "a4887d1d8849e1ee278d6b5acabe521e829394c3c283ffc008b9be778ff8d2b6"
+  },
+  {
+    "name": "azure-container-registry-cli",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows",
+      "microsoft-365"
+    ],
+    "source_path": "azure-container-registry-cli",
+    "description": "Manage Azure Container Registry via the az acr CLI including registries, images, cloud builds, ACR Tasks, authentication, tokens, geo-replication, and networking. Use when working with ACR, az acr commands, pushing/importing/purging container images in Azure, or when the user mentions Azure Container Registry.'",
+    "file_count": 5,
+    "sha256": "fcade086d866dbadab7622e7407c3e0a1977824492a041d85dcd051315dec7b6"
+  },
+  {
+    "name": "azure-deployment-preflight",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "azure-deployment-preflight",
+    "description": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure to preview changes, identify potential issues, and ensure the deployment will succeed. Activate when users mention deploying to Azure, validating Bicep files, checking deployment permissions, previewing infrastructure changes, running what-if, or preparing for azd provision.'",
+    "file_count": 4,
+    "sha256": "b11e45a9efa28f472fa3a9febcddb17ff06e83e66f61c0c45ac17d2f1d22c4e3"
+  },
+  {
+    "name": "azure-developer-cli",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows"
+    ],
+    "source_path": "azure-developer-cli",
+    "description": "Design, create, review, migrate, or troubleshoot Azure Developer CLI (azd) projects using current Microsoft guidance. Use for azd, azure.yaml, AZD templates, Bicep or Terraform under infra, AZD environments and secrets, hooks, deployment workflows, and azd-managed CI/CD.'",
+    "file_count": 6,
+    "sha256": "cfc5b6c853dca4706ae0034d7355056957aca19d4126994c40be92e46dfe23fb"
+  },
+  {
+    "name": "azure-devops-cli",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows"
+    ],
+    "source_path": "azure-devops-cli",
+    "description": "Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints. Use when working with Azure DevOps, az commands, devops automation, CI/CD, or when user mentions Azure DevOps CLI.",
+    "file_count": 9,
+    "sha256": "b961cf722af56f256c166f1698eb181fdc526b8c2900b6ddea278fb9d8d6f907"
+  },
+  {
+    "name": "azure-pricing",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "azure-pricing",
+    "description": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure service, wants to compare SKU prices, needs pricing data for a cost estimate, mentions Azure pricing, Azure costs, Azure billing, or asks about Copilot Studio pricing, Copilot Credits, or agent usage estimation. Covers compute, storage, networking, databases, AI, Copilot Studio, and all other Azure service families.'",
+    "file_count": 5,
+    "sha256": "61a34c6a6cc4afe0ee2c82ffaa18631d12c3cb3229c9a610dde624bc4ff27c65"
+  },
+  {
+    "name": "azure-resource-health-diagnose",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "azure-resource-health-diagnose",
+    "description": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.'",
+    "file_count": 1,
+    "sha256": "b58a96f0f25e6e031c68eb516f91de9ff994dfdd7f146eae583f50171022036a"
+  },
+  {
+    "name": "azure-resource-visualizer",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "azure-resource-visualizer",
+    "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. Use this skill when the user asks for a diagram of their Azure resources or help in understanding how the resources relate to each other.",
+    "file_count": 3,
+    "sha256": "c018cd757ecf745b469ab7d7adeaaffeb48b5dba53f32d28c36eab4ac6f2b0d2"
+  },
+  {
+    "name": "azure-role-selector",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "azure-role-selector",
+    "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role.",
+    "file_count": 2,
+    "sha256": "5ecf0325ccde3e3a86fc6a33dd3d99ed547c809af6bcd614a5efab72505632bc"
+  },
+  {
+    "name": "azure-smart-city-iot-solution-builder",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows",
+      "microsoft-ai-data"
+    ],
+    "source_path": "azure-smart-city-iot-solution-builder",
+    "description": "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete implementation artifacts.'",
+    "file_count": 2,
+    "sha256": "58bd630d520f7925166f1751e17a840121dd8fff0552d313b6bb62eb3de17449"
+  },
+  {
+    "name": "azure-static-web-apps",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "github-copilot-actions"
+    ],
+    "source_path": "azure-static-web-apps",
+    "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps.",
+    "file_count": 1,
+    "sha256": "d8aa020f4c266800d5dce80d7ff9683d5114d42716f49776b3cc3d675b9aebc2"
+  },
+  {
+    "name": "azure-well-architected-review",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "github-copilot-actions",
+      "microsoft-ai-data"
+    ],
+    "source_path": "azure-well-architected-review",
+    "description": "Perform an Azure Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements.'",
+    "file_count": 1,
+    "sha256": "05bf13a08ae968d06a3885030be79dd54d86c53ec7e9ef720520b1298941ac8f"
+  },
+  {
+    "name": "batch-files",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "batch-files",
+    "description": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \"create a batch file\", \"write a .bat script\", \"automate a Windows task\", \"CMD scripting\", \"batch automation\", \"scheduled task script\", \"Windows shell script\", or when working with .bat/.cmd files in the workspace. Covers cmd.exe syntax, environment variables, control flow, string processing, error handling, and integration with system tools.'",
+    "file_count": 10,
+    "sha256": "26f16d5b2bbc64dea52300160f84f1f4858fe5ead40dcabca95734d8afa27a4b"
+  },
+  {
+    "name": "boost-prompt",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "boost-prompt",
+    "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension.'",
+    "file_count": 1,
+    "sha256": "2621a44fbd9fc2636953d1e6e39e5faeed995f7fb958ec12cc98a2f0576f6fa7"
+  },
+  {
+    "name": "brag-sheet",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows",
+      "github-copilot-actions"
+    ],
+    "source_path": "brag-sheet",
+    "description": ">",
+    "file_count": 1,
+    "sha256": "235eebe934fdf6348d018178d13ccbf2c36307ba6030d79561f44887322043e9"
+  },
+  {
+    "name": "cli-mastery",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "cli-mastery",
+    "description": "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts, modes, agents, skills, MCP, and configuration. Say \"cliexpert\" to start.'",
+    "file_count": 11,
+    "sha256": "48671fb184846481d25596843f0a0d2f0cbcf1d6d12390a37f21043f3fcc1252"
+  },
+  {
+    "name": "cloud-design-patterns",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "cloud-design-patterns",
+    "description": "Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security, and deployment categories. Use when designing, reviewing, or implementing distributed system architectures.'",
+    "file_count": 10,
+    "sha256": "99a94b073eb8551fe318e66ee51230efc95305f198fbd2438fc172441b5c94ea"
+  },
+  {
+    "name": "code-exemplars-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "code-exemplars-blueprint-generator",
+    "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams.'",
+    "file_count": 1,
+    "sha256": "1a4e9008100148a106bac0be4338b84a43a9d6b3bc70d14f75359977d4770f2e"
+  },
+  {
+    "name": "code-tour",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "code-tour",
+    "description": ">",
+    "file_count": 5,
+    "sha256": "8c925edb7128db0503596b84305c1582011c4c8e1b501aa3342d67e111596b98"
+  },
+  {
+    "name": "codeql",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "codeql",
+    "description": "Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users need help with code scanning configuration, CodeQL workflow files, CodeQL CLI commands, SARIF output, security analysis setup, or troubleshooting CodeQL analysis.",
+    "file_count": 7,
+    "sha256": "e30d50fc7a2591c7f9e08faf83c31e7a67625a27233da21fcd2dafc7055af87b"
+  },
+  {
+    "name": "containerize-aspnet-framework",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "powershell-windows",
+      "visual-studio-vscode"
+    ],
+    "source_path": "containerize-aspnet-framework",
+    "description": "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project.'",
+    "file_count": 1,
+    "sha256": "e6608a11e7c5ce16ff1b7048902a1fd51aa98fa5373167002a73deb9b5570749"
+  },
+  {
+    "name": "containerize-aspnetcore",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "containerize-aspnetcore",
+    "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.'",
+    "file_count": 1,
+    "sha256": "23f73cb98109f2a56c0b49b5121fc6132a5fddf1fd3bb145db94085f36f7d205"
+  },
+  {
+    "name": "convert-excel-to-md",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "convert-excel-to-md",
+    "description": "Converts Excel (.xlsx) workbooks into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .xlsx file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", \"chart\", or \"analyze\" a spreadsheet, workbook, budget, data export, or tracker. Always run the bundled conversion script to produce Markdown first; do not attempt to parse .xlsx content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of Excel workbooks. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped.'",
+    "file_count": 4,
+    "sha256": "f71787157833541dffa87cf323da78f0b2bf2da7080f2206401ffbce974ae55f"
+  },
+  {
+    "name": "convert-pdf-to-md",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "convert-pdf-to-md",
+    "description": "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .pdf file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a PDF report, paper, invoice, form, contract, or scanned document. Always run the bundled conversion script to produce Markdown first; do not attempt to parse PDF content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of PDF documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped.'",
+    "file_count": 4,
+    "sha256": "fa65c2c6fb9b2ee8d235f0452a51e6a242705703dd3ef19d726dbcce7d2418c3"
+  },
+  {
+    "name": "convert-plaintext-to-md",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "convert-plaintext-to-md",
+    "description": "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.'",
+    "file_count": 1,
+    "sha256": "934c017d41118a44f4db0e80b526db175cadcfdf8c5354fc9eceb0b3cb6beb50"
+  },
+  {
+    "name": "convert-word-to-md",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "convert-word-to-md",
+    "description": "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .docx file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a Word document, resume, report, contract, or proposal. Always run the bundled conversion script to produce Markdown first; do not attempt to parse .docx content directly or write ad-hoc conversion code. Also use this skill for batch requests involving a whole folder of Word documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped.'",
+    "file_count": 4,
+    "sha256": "f681a293519dc2a3d0ec5a7c60e5b84c43fbca09545240e0c6e74fed665c30ba"
+  },
+  {
+    "name": "copilot-cli-quickstart",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "copilot-cli-quickstart",
+    "description": ">",
+    "file_count": 1,
+    "sha256": "720e848c508c9fccc0d9edbdb7a68ede333866e1e0a126b7d4b179e01d7ba5d7"
+  },
+  {
+    "name": "copilot-instructions-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "copilot-instructions-blueprint-generator",
+    "description": "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.'",
+    "file_count": 1,
+    "sha256": "45fd25e507349b05f80a0cafc159109071ed6c24ac5f014b9c749fd6846bd62b"
+  },
+  {
+    "name": "copilot-pr-autopilot",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "copilot-pr-autopilot",
+    "description": "Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request, and each round lands MORE comments. This skill runs loop engineering: auto-triggers Copilot Code Review via GraphQL (no @copilot mention), triages every open thread (Copilot, humans, advanced-security) with a fix / decline / escalate rubric, dispatches parallel fix sub-agents that obey the repo build/test/lint conventions, commits per iteration, replies+resolves citing the pushed SHA, then re-triggers until HEAD is reviewed with zero threads awaiting the agent''s reply (remaining open threads are explicit hand-offs to the human — escalated declines, design tradeoffs). You merge a clean PR; the bot runs it. Trigger phrases: \"address copilot comments\", \"run a copilot review loop\", \"fix this PR\", \"iterate on copilot feedback\". Repo-agnostic, gh CLI + PowerShell. Full autopilot needs repo Triage/Write; external PR authors get single-iteration mode plus manual re-trigger (UI 🔄 or substantive-commit push).'",
+    "file_count": 24,
+    "sha256": "abc5d7a83090b9bee10c4c001ce2bec70da3f78c888cca7e1580bca10545b76b"
+  },
+  {
+    "name": "copilot-sdk",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "copilot-sdk",
+    "description": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or creating custom agents. Triggers on Copilot SDK, GitHub SDK, agentic app, embed Copilot, programmable agent, MCP server, custom agent.",
+    "file_count": 1,
+    "sha256": "16beed1bc9cddb25e0b0af8afedbdac70ba90debaa9d490fa9921e3eddce020e"
+  },
+  {
+    "name": "copilot-usage-metrics",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "copilot-usage-metrics",
+    "description": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.",
+    "file_count": 5,
+    "sha256": "eef941d09ce84ae1f8c7203c865c406b0cf3cf058d4229dbdfcf730f226eb084"
+  },
+  {
+    "name": "cosmosdb-datamodeling",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "cosmosdb-datamodeling",
+    "description": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: \"cosmosdb_requirements.md\" file and \"cosmosdb_data_model.md\" file'",
+    "file_count": 1,
+    "sha256": "b588fe7b9cf925eee682e94564666b6d8c9451d661a6bad15b5d3b4e87558e9d"
+  },
+  {
+    "name": "create-github-action-workflow-specification",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "create-github-action-workflow-specification",
+    "description": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.'",
+    "file_count": 1,
+    "sha256": "527e6c77d921d58a9d0059aa95d0d14b441d2166f9c20518263048a56ca8fbbb"
+  },
+  {
+    "name": "create-implementation-plan",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "create-implementation-plan",
+    "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.'",
+    "file_count": 1,
+    "sha256": "5c282fded01e40a7db621b0690513f62d179b600e0a271751e82cb0c9e1bcafc"
+  },
+  {
+    "name": "create-readme",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "create-readme",
+    "description": "Create a README.md file for the project'",
+    "file_count": 1,
+    "sha256": "d0ece1b2164ce1376e4ab6e98d6ac079df3a2a94f5f02224362b6a1ce2516ae9"
+  },
+  {
+    "name": "create-specification",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "create-specification",
+    "description": "Create a new specification file for the solution, optimized for Generative AI consumption.'",
+    "file_count": 1,
+    "sha256": "9796c1d33858522eb67ea2fa864993bdad11f5d79832cca9cf64b9a47c610c09"
+  },
+  {
+    "name": "create-technical-spike",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "visual-studio-vscode"
+    ],
+    "source_path": "create-technical-spike",
+    "description": "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.'",
+    "file_count": 1,
+    "sha256": "e711706b4aebacac01bcc025e19bcf0e88bf784cbe6419ddf07c2be67c501f33"
+  },
+  {
+    "name": "creating-oracle-to-postgres-master-migration-plan",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "creating-oracle-to-postgres-master-migration-plan",
+    "description": "Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration plan. Use when starting a multi-project Oracle-to-PostgreSQL migration, creating a migration inventory, or assessing which .NET projects contain Oracle dependencies.'",
+    "file_count": 1,
+    "sha256": "7998313b9bfd779b4783e6ac2c8f96bc5241af55ff5706078eff7919207e2dfd"
+  },
+  {
+    "name": "creating-oracle-to-postgres-migration-integration-tests",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "creating-oracle-to-postgres-migration-integration-tests",
+    "description": "Creates integration test cases targeting Oracle for .NET data access artifacts. Tests capture Oracle expected behavior as the authoritative baseline; they are written once and later ported to PostgreSQL by migrating the test project in Phase 6. Use only during Phase 3, before any PostgreSQL migration work has begun. Do not invoke during Phase 6 or against a project that has already been migrated.'",
+    "file_count": 1,
+    "sha256": "fb863d5918442d6d869c8592475e07f6ce245aba16efd7cc4a284299752a169f"
+  },
+  {
+    "name": "csharp-mstest",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "csharp-mstest",
+    "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests'",
+    "file_count": 1,
+    "sha256": "f8417ce1101a3ea94d9dae01fae4901810f27d92172d108ec54c8fcb264045f8"
+  },
+  {
+    "name": "csharp-nunit",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "csharp-nunit",
+    "description": "Get best practices for NUnit unit testing, including data-driven tests'",
+    "file_count": 1,
+    "sha256": "2026047ba0a3b1f3b7d68fd87d35a55ed8592c075979c14a3fcf2fa8c8b9fc3a"
+  },
+  {
+    "name": "csharp-tunit",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "csharp-tunit",
+    "description": "Get best practices for TUnit unit testing, including data-driven tests'",
+    "file_count": 1,
+    "sha256": "634bf822bdbd01c5d5a8c7c9f473f3818dfca8acca309a0af97cd90a7e39b738"
+  },
+  {
+    "name": "csharp-xunit",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "csharp-xunit",
+    "description": "Get best practices for XUnit unit testing, including data-driven tests'",
+    "file_count": 1,
+    "sha256": "3c224e79f92ec027de3d5f44d0ca3077f076cb1e1bfff6b0db5b09c34c3aecd2"
+  },
+  {
+    "name": "daily-focus-board",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "daily-focus-board",
+    "description": "Spin up a personal, motivating daily focus board that renders in a browser canvas and that the user drives by talking to their AI partner. Tasks track status (to-do → in progress → done) with timestamped progress notes and roll up into a \"today''s momentum\" feed; numeric-goal tasks (pages, pomodoros, reps) render as progress-bar counters. Executive-function / neurodivergent-friendly by design: Focus mode, kind \"not today\" carryover (no overdue-shaming), a brain-dump box, reduced-motion, and gentle deadline countdowns. Add, reorder, and relabel tasks live, assign Eisenhower priority (Do first / Schedule / Delegate / Later), open with an above/below-the-line check-in and a daily mantra, and save an end-of-day recap. Use when someone wants to plan their day, stay focused, kick off a work session, or track progress. Progress persists in the browser (localStorage).'",
+    "file_count": 7,
+    "sha256": "63ed0493cd89351caae819131f87b54d1db75896e381a26b45b1ef33b2ff7434"
+  },
+  {
+    "name": "daily-prep",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows",
+      "microsoft-365"
+    ],
+    "source_path": "daily-prep",
+    "description": "Prepare for tomorrow''s meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations.'",
+    "file_count": 1,
+    "sha256": "205915474441d698548c8eeeb9271cfb8367ae370efc26130a1c14d198d803d8"
+  },
+  {
+    "name": "data-breach-blast-radius",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "data-breach-blast-radius",
+    "description": "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory blast radius report with fine ranges sourced verbatim from GDPR Art. 83, CCPA § 1798.155(a), and HIPAA 45 CFR § 160.404. Cost benchmarks from IBM Cost of a Data Breach Report (annually updated). All citations in references/SOURCES.md for verification. Use when asked: \"assess breach impact\", \"what data could be exposed\", \"calculate blast radius\", \"data exposure analysis\", \"how bad would a breach be\", \"quantify data risk\", \"sensitive data inventory\", \"data flow security audit\", \"pre-breach assessment\", \"worst-case breach scenario\", \"breach readiness\", \"data risk report\", \"/data-breach-blast-radius\". For any stack handling user data, health records, or financial information. Output labels law-sourced figures (exact) vs heuristic estimates (planning only). Does not replace legal counsel.'",
+    "file_count": 7,
+    "sha256": "b0c31f0e3b1675de997a3b8bee6b2e10a5a76f7d8bf3fb1c63fd5786677ff82b"
+  },
+  {
+    "name": "dataverse-python-usecase-builder",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "dataverse-python-usecase-builder",
+    "description": "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations'",
+    "file_count": 1,
+    "sha256": "f2350c6a1f6c297e910afc0f63b2530b2b76e3880dd6285d1de17d3d082a7a0b"
+  },
+  {
+    "name": "declarative-agents",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode",
+      "microsoft-365"
+    ],
+    "source_path": "declarative-agents",
+    "description": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration'",
+    "file_count": 1,
+    "sha256": "cbfcbb1f6916629db484acc9d08f0895f55158cc38d5c3f506dc317639eb917f"
+  },
+  {
+    "name": "dependabot",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "dependabot",
+    "description": ">-",
+    "file_count": 4,
+    "sha256": "fae18b0bdde8dfbb5d18c4e2945d899ea2d1445a3c4ad507abd363b7e22306fa"
+  },
+  {
+    "name": "dotnet-best-practices",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "microsoft-ai-data"
+    ],
+    "source_path": "dotnet-best-practices",
+    "description": "Ensure .NET/C# code meets best practices for the solution/project.'",
+    "file_count": 1,
+    "sha256": "9ef94db7f06c167d544369817e5a4415eeb7886dcff0d47026837a1aada260e3"
+  },
+  {
+    "name": "dotnet-design-pattern-review",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "microsoft-ai-data"
+    ],
+    "source_path": "dotnet-design-pattern-review",
+    "description": "Review the C#/.NET code for design pattern implementation and suggest improvements.'",
+    "file_count": 1,
+    "sha256": "0b2b93ae1950e075045546dcf8d5a0971eea77abc5707916c99033c334accf69"
+  },
+  {
+    "name": "dotnet-mcp-builder",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "dotnet-mcp-builder",
+    "description": "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages. Helps with cases the model gets wrong without guidance — stale versions (0.x preview or 1.x-era defaults), the v2 stateless-by-default HTTP flip, the 2026-07-28 spec deprecations (roots/sampling/logging), MCP Apps and Tasks extension packages, elicitation URL mode, per-session HTTP wiring, OAuth and reverse-proxy deploy specifics, and debugging MapMcp / STDIO / Streamable-HTTP errors. Also covers STDIO and Streamable HTTP transports (SSE is deprecated), tools, prompts, resources, completions, and a basic .NET MCP client. Trigger when the user says or implies any .NET MCP server work: ModelContextProtocol, McpServerTool, MapMcp, WithStdioServerTransport, \"MCP server in C#\", \"MCP tool in dotnet\", \"expose this as MCP\", or names a primitive (prompt/resource/elicitation/MCP App) in a .NET context. Skip for MCP work in other languages.'",
+    "file_count": 14,
+    "sha256": "b8117cfe2045f4021e82e2fe0497f7fc0f5f9a835907d705703f556f90124e1a"
+  },
+  {
+    "name": "dotnet-timezone",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "dotnet-timezone",
+    "description": ".NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, scheduling across timezones, cross-platform Windows/IANA timezone IDs, or when a .NET user needs the timezone for a city, address, region, or country and copy-paste-ready C# code.'",
+    "file_count": 3,
+    "sha256": "814f12020ca4c990c431ac893c83ed443fc0f8add688a4f2cd3d876032a98ea0"
+  },
+  {
+    "name": "dotnet-upgrade",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "dotnet-upgrade",
+    "description": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution'",
+    "file_count": 1,
+    "sha256": "2cea79257527663b336e3a48f70a70bbede80695ac56ce96deae76a59a69142a"
+  },
+  {
+    "name": "draw-io-diagram-generator",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "draw-io-diagram-generator",
+    "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file.",
+    "file_count": 13,
+    "sha256": "1da717c88f800bb96d895290a71741110a039285604329e67d544cb6685ef2a8"
+  },
+  {
+    "name": "drawio",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "drawio",
+    "description": "Generate draw.io diagrams as .drawio files and export to PNG/SVG/PDF with embedded XML",
+    "file_count": 3,
+    "sha256": "4c77e3941e561b9740f20150bee250a2236ab9da207f1e46f4501a5492ba6013"
+  },
+  {
+    "name": "editorconfig",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "editorconfig",
+    "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.'",
+    "file_count": 1,
+    "sha256": "19ce7c1a970666aadccbcbdcf9a37b4675cb7da24f3a5b603ec06ed6d04a0124"
+  },
+  {
+    "name": "ef-core",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "ef-core",
+    "description": "Get best practices for Entity Framework Core'",
+    "file_count": 1,
+    "sha256": "23f0a7c7e8c050337d67303f0af339da1ab8f0aa6a334f13112c3f85250c329c"
+  },
+  {
+    "name": "efcore-d2-db-diagram",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "efcore-d2-db-diagram",
+    "description": "Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram, Entity Framework Core ERD, DbContext diagram, C# entity relationship diagram, PostgreSQL schema visualization, generate .d2 file from EF Core entities, Fluent API mapping diagram, migrations-based database diagram, table relationships, owned types, many-to-many join tables, indexes and constraints. DO NOT USE FOR: runtime debugging, database migration execution, schema deployment, SQL performance tuning, or draw.io diagrams.\"",
+    "file_count": 6,
+    "sha256": "a005bdcbcfdb87b0de2cec43c833a1e225889e46244f5c637c90a6570aac8bbb"
+  },
+  {
+    "name": "email-drafter",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "email-drafter",
+    "description": "Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, greeting, structure, and sign-off patterns via WorkIQ, then generates context-aware drafts for any recipient. USE FOR: draft email, write email, compose email, reply email, follow-up email, analyze email tone, email style.'",
+    "file_count": 1,
+    "sha256": "723dbf7b93c9ce957bf19115b6117f2871267f2b5324f3752a97d311167f707e"
+  },
+  {
+    "name": "entra-agent-user",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows",
+      "microsoft-365"
+    ],
+    "source_path": "entra-agent-user",
+    "description": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 and Azure environments.'",
+    "file_count": 1,
+    "sha256": "e2a7744aa594d4e2e16948e0524e59b60a28732e03a310470da03709d90eb2cf"
+  },
+  {
+    "name": "eyeball",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "eyeball",
+    "description": "Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball generates a Word doc where every factual claim includes a highlighted screenshot from the source material so you can verify it with your own eyes.'",
+    "file_count": 2,
+    "sha256": "aa4c5c27420de62011701b85264712a17637d5521dd24b66d650c8580bf16c9e"
+  },
+  {
+    "name": "fabric-lakehouse",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-365",
+      "microsoft-ai-data"
+    ],
+    "source_path": "fabric-lakehouse",
+    "description": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices.'",
+    "file_count": 3,
+    "sha256": "6cacb6e3e314ad21eee6e681b67dc39a2fb59522f5f374ca80fc3c0201722d15"
+  },
+  {
+    "name": "flowstudio-power-automate-build",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "flowstudio-power-automate-build",
+    "description": ">-",
+    "file_count": 7,
+    "sha256": "0499de938c4363a71eeaf62506e3cfe5dfd04e405e45391c8e9fa358c73cf36a"
+  },
+  {
+    "name": "flowstudio-power-automate-debug",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "flowstudio-power-automate-debug",
+    "description": ">-",
+    "file_count": 3,
+    "sha256": "4dda121b4fd21c04f4cda3f4eadc876d2e7308066894ee1aab8bef4d2eb84436"
+  },
+  {
+    "name": "flowstudio-power-automate-governance",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "flowstudio-power-automate-governance",
+    "description": ">-",
+    "file_count": 1,
+    "sha256": "a20e415d1b47848db442af22d8deb30c72da00a78821fcb1075fb3f0d4be5c7a"
+  },
+  {
+    "name": "flowstudio-power-automate-mcp",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "flowstudio-power-automate-mcp",
+    "description": ">-",
+    "file_count": 5,
+    "sha256": "8f24ed6432eabcd0c0181068d437ff3b66843e6158f041cf834c849f8e996a79"
+  },
+  {
+    "name": "flowstudio-power-automate-monitoring",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "flowstudio-power-automate-monitoring",
+    "description": ">-",
+    "file_count": 1,
+    "sha256": "b2538f6f422d22e3539ce427635562e99730627500c4a4cfc608d005d4edbbd8"
+  },
+  {
+    "name": "fluentui-blazor",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "fluentui-blazor",
+    "description": ">",
+    "file_count": 5,
+    "sha256": "df33f6260612e66c2d6d44babc611f1210a4eb1656353e6d0214a9931dc5095d"
+  },
+  {
+    "name": "folder-structure-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "folder-structure-blueprint-generator",
+    "description": "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks.'",
+    "file_count": 1,
+    "sha256": "418d532c42d0714986e90466e087f6fd8c975e7dc8afddafd1f37558968b639b"
+  },
+  {
+    "name": "foundry-agent-sync",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "powershell-windows"
+    ],
+    "source_path": "foundry-agent-sync",
+    "description": "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only generate local code, this skill registers agents in the Foundry service itself — making them immediately available for invocation. Use when the user asks to create agents in Foundry, sync, deploy, register, or push agents to Foundry, update agent instructions, or scaffold the manifest and sync script for a new repository. Triggers: 'create agent in foundry', 'sync foundry agents', 'deploy agents to foundry', 'register agents in foundry', 'push agents', 'create foundry agent manifest', 'scaffold agent sync'.\"",
+    "file_count": 1,
+    "sha256": "546e7161500a94ca912ddebb936905edff5759b6a6370c8147856f2b084690d1"
+  },
+  {
+    "name": "foundry-hosted-agent-copilotkit",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet"
+    ],
+    "source_path": "foundry-hosted-agent-copilotkit",
+    "description": "Ongoing development guidance for agentic web apps that pair a CopilotKit frontend with Microsoft Agent Framework agents on Azure AI Foundry hosted agents over the AG-UI protocol - add and gate agent tools, wire human-in-the-loop approvals, build generative UI and shared state, debug the event stream, upgrade pre-1.0 packages safely, and deploy hosted agent updates.'",
+    "file_count": 7,
+    "sha256": "bd282e8a425b3d5bab2761288229dcda18e77b3b8c0adf31856d59dafd2a550c"
+  },
+  {
+    "name": "generate-custom-instructions-from-codebase",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "generate-custom-instructions-from-codebase",
+    "description": "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copilot to maintain consistency during technology migrations, major refactoring, or framework version upgrades.'",
+    "file_count": 1,
+    "sha256": "f24a3997ee9034af8b609bd02cd1f5303916ce8399b9ea7d89dcb2ecb3c4de8e"
+  },
+  {
+    "name": "github-actions-efficiency",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "github-actions-efficiency",
+    "description": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.'",
+    "file_count": 5,
+    "sha256": "cb1a6b7a2d06465b26f1245a0f617317032d40f0e63f3237ac67f996ad5eeea3"
+  },
+  {
+    "name": "github-actions-hardening",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "github-actions-hardening",
+    "description": "Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml). Reasons about the Actions threat model that pattern matchers and general code linters miss — untrusted-input script injection, privileged triggers running fork code, mutable action references, and over-scoped tokens. Use this skill when asked to review, audit, harden, or secure a GitHub Actions workflow, when writing a new workflow, or for any request like \"is this workflow safe?\", \"review my CI for security issues\", \"why is pull_request_target dangerous here?\", \"pin my actions\", or \"lock down GITHUB_TOKEN permissions\". Covers script injection via ${{ }} interpolation, pull_request_target / workflow_run privilege escalation, SHA-pinning of third-party actions, least-privilege permissions, GITHUB_ENV/GITHUB_OUTPUT injection, secret exposure, OIDC over long-lived credentials, and self-hosted runner exposure on public repositories.",
+    "file_count": 6,
+    "sha256": "d826005e7e1f7792531836c747c78df9e9caac534dd027b8ad872725340e5df2"
+  },
+  {
+    "name": "github-actions-runtime-upgrade-conventions",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "github-actions-runtime-upgrade-conventions",
+    "description": "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution.'",
+    "file_count": 1,
+    "sha256": "a2086c47b046d101d92435bd4631ff040401bb7d42205868f14209beda58ef4a"
+  },
+  {
+    "name": "github-copilot-starter",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "github-copilot-starter",
+    "description": "Set up complete GitHub Copilot configuration for a new project based on technology stack'",
+    "file_count": 1,
+    "sha256": "7b29145c2d3255c38d7333c41e2872411f668658c2c2f4782e420400abf08175"
+  },
+  {
+    "name": "github-release",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows",
+      "github-copilot-actions"
+    ],
+    "source_path": "github-release",
+    "description": ">",
+    "file_count": 3,
+    "sha256": "89dd98ca83f681dd7580c73c8d0dadcf8adffc6e9a9d5acc1b7acf6c66826467"
+  },
+  {
+    "name": "gsap-framer-scroll-animation",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "gsap-framer-scroll-animation",
+    "description": ">-",
+    "file_count": 3,
+    "sha256": "2fba45d529987cdf4b042f76b797de0f6481f713108f0a441eb4bbc38461af0c"
+  },
+  {
+    "name": "harness-engineering",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "harness-engineering",
+    "description": "Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression tests, failure memory, and adoption reports tailored to the target repository.'",
+    "file_count": 1,
+    "sha256": "a442c82ec3f8cb2d25f33f18bb28c586af3402d7b630bcc38501d7182a1d782d"
+  },
+  {
+    "name": "image-annotations",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "image-annotations",
+    "description": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annotations with timing and pacing.'",
+    "file_count": 1,
+    "sha256": "72b07e580bf2f80d7ee5d224b322c6eb862791ad981efb24ba3d2df82aa973e3"
+  },
+  {
+    "name": "image-manipulation-image-magick",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "image-manipulation-image-magick",
+    "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations.",
+    "file_count": 1,
+    "sha256": "f4f81a1054a423c5eff04f05c1b72335beae2251201c5b5729b0dce4bee06f7e"
+  },
+  {
+    "name": "import-infrastructure-as-code",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "import-infrastructure-as-code",
+    "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code from existing subscriptions/resource groups/resource IDs, map dependencies, derive exact import addresses from downloaded module source, prevent configuration drift, and produce AVM-based Terraform files ready for validation and planning across any Azure resource type.'",
+    "file_count": 1,
+    "sha256": "374b851dcf36c9239094fecea6b67a66962d0bd4dd59ff2c24bb1ad4064884b3"
+  },
+  {
+    "name": "incident-postmortem",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "incident-postmortem",
+    "description": "Use when an outage, production incident, or significant service degradation has occurred and the team needs to write a structured blameless post-mortem. Triggers on phrases like \"write a post-mortem\", \"incident review\", \"what went wrong\", \"outage report\", \"root cause analysis\", or \"RCA\". Covers timeline reconstruction, contributing factor analysis, impact quantification, and action item generation with owners.'",
+    "file_count": 1,
+    "sha256": "007d7bb94f77b0e9793dddda5bff89ebad57059750c8691188b956732a08e1ce"
+  },
+  {
+    "name": "javax-to-jakarta-migration",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "javax-to-jakarta-migration",
+    "description": "Migrate Java code from javax.* to jakarta.* namespace. Use when upgrading to Tomcat 11, Jakarta EE 10, or when javax imports are detected in the codebase.\"",
+    "file_count": 1,
+    "sha256": "00012770ad983334c6b6797979d4d70709161fa0d597a1d1deddbd5fadfc0522"
+  },
+  {
+    "name": "legacy-circuit-mockups",
+    "primary_category": "microsoft-ai-data",
+    "categories": [
+      "microsoft-ai-data"
+    ],
+    "source_path": "legacy-circuit-mockups",
+    "description": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic component placements, draw breadboard diagrams, mockup 6502 builds, generate retro computer schematics, or design vintage electronics projects. Supports 555 timers, W65C02S microprocessors, 28C256 EEPROMs, W65C22 VIA chips, 7400-series logic gates, LEDs, resistors, capacitors, switches, buttons, crystals, and wires.'",
+    "file_count": 21,
+    "sha256": "d47730d99627a2ad19ff4acd1aa86c9825dc04d1e0681cc42e07509e5de0360b"
+  },
+  {
+    "name": "lsp-setup",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows",
+      "github-copilot-actions"
+    ],
+    "source_path": "lsp-setup",
+    "description": "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the right server, and generates the JSON configuration (user-level or repo-level). Use when you need deeper code understanding and no LSP server is configured, or when the user asks to set up, install, or configure an LSP server.'",
+    "file_count": 2,
+    "sha256": "081a8a321adb82aa4185cbde288fbfb7c89653ca104c700adc664cbea9d6f3a2"
+  },
+  {
+    "name": "mcp-copilot-studio-server-generator",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "mcp-copilot-studio-server-generator",
+    "description": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support'",
+    "file_count": 1,
+    "sha256": "290b35da40b5a6485cd8b83ab0ce615a2bb2e3aaae78a09484349815c8b0b371"
+  },
+  {
+    "name": "mcp-create-adaptive-cards",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "mcp-create-adaptive-cards",
+    "description": "Skill converted from mcp-create-adaptive-cards.prompt.md'",
+    "file_count": 1,
+    "sha256": "9b01d7e179ce010b46b9e2461e678791c0a04ed2cd251e11d50d7f3198a6dab9"
+  },
+  {
+    "name": "mcp-create-declarative-agent",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode",
+      "microsoft-365"
+    ],
+    "source_path": "mcp-create-declarative-agent",
+    "description": "Skill converted from mcp-create-declarative-agent.prompt.md'",
+    "file_count": 1,
+    "sha256": "e85004817b09658e5ec32b771a078b9c521e1b3ebae2384c50d5854adcc3ba0b"
+  },
+  {
+    "name": "mcp-deploy-manage-agents",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "mcp-deploy-manage-agents",
+    "description": "Skill converted from mcp-deploy-manage-agents.prompt.md'",
+    "file_count": 1,
+    "sha256": "54e29de79d6047e3be16f948afdd9b1755ea6a44038b5ffe9c8f0c97145f1d50"
+  },
+  {
+    "name": "mcp-implementation-security-review",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "mcp-implementation-security-review",
+    "description": "|",
+    "file_count": 1,
+    "sha256": "b830bb1e079f2a3462e03ec151c95cb58063ce075ba58da832be46e019cd53b5"
+  },
+  {
+    "name": "md-to-docx",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "md-to-docx",
+    "description": "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required",
+    "file_count": 3,
+    "sha256": "9bc9373431fd16e6957aed1dc0773f7c49c47edb66a80c70583d6282cef250c0"
+  },
+  {
+    "name": "memory-merger",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "memory-merger",
+    "description": "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.'",
+    "file_count": 1,
+    "sha256": "6d64cdfdbf2309c78905a6ab208cc5ccced0cb955f404d8fc124c9720ade6ac3"
+  },
+  {
+    "name": "mentoring-juniors",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "mentoring-juniors",
+    "description": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I''m stuck\", \"Im stuck\", \"I''m confused\", \"Im confused\", \"I don''t understand\", \"I dont understand\", \"can you teach me\", \"teach me\", \"mentor me\", \"guide me\", \"what does this error mean\", \"why doesn''t this work\", \"why does not this work\", \"I''m a beginner\", \"Im a beginner\", \"I''m learning\", \"Im learning\", \"I''m new to this\", \"Im new to this\", \"walk me through\", \"how does this work\", \"what''s wrong with my code\", \"what''s wrong\", \"can you break this down\", \"ELI5\", \"step by step\", \"where do I start\", \"what am I missing\", \"newbie here\", \"junior dev\", \"first time using\", \"how do I\", \"what is\", \"is this right\", \"not sure\", \"need help\", \"struggling\", \"show me\", \"help me debug\", \"best practice\", \"too complex\", \"overwhelmed\", \"lost\", \"debug this\", \"/socratic\", \"/hint\", \"/concept\", \"/pseudocode\". Progressive clue systems, teaching techniques, and success metrics.'",
+    "file_count": 1,
+    "sha256": "ea3d12e594aea60a35cf174be77bf9efcc6c3c17483c4560966b945102dfc44a"
+  },
+  {
+    "name": "microsoft-agent-framework",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "microsoft-ai-data"
+    ],
+    "source_path": "microsoft-agent-framework",
+    "description": "Create, update, refactor, explain, or review Microsoft Agent Framework solutions using shared guidance plus language-specific references for .NET and Python.'",
+    "file_count": 3,
+    "sha256": "a7468c87acb4a9c8eb6eb29ed8654ee427c4ae79215fc568cfb2dc76eb967327"
+  },
+  {
+    "name": "microsoft-code-reference",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "microsoft-code-reference",
+    "description": "Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check parameters, get working examples, or troubleshoot errors. Catches hallucinated methods, wrong signatures, and deprecated patterns by querying official docs.",
+    "file_count": 1,
+    "sha256": "2a86c1b1a876f777a8f99e0e27a9b2d5fa360352bd2dd396102e3110212dd296"
+  },
+  {
+    "name": "microsoft-docs",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "visual-studio-vscode",
+      "github-copilot-actions",
+      "microsoft-ai-data"
+    ],
+    "source_path": "microsoft-docs",
+    "description": "Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default, with Context7 and Aspire MCP for content that lives outside learn.microsoft.com.'",
+    "file_count": 1,
+    "sha256": "e49127ff2162330ac79bfde9e7ed1297df15be9ade09164fdebfe697153fcc36"
+  },
+  {
+    "name": "microsoft-skill-creator",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "visual-studio-vscode",
+      "microsoft-ai-data"
+    ],
+    "source_path": "microsoft-skill-creator",
+    "description": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .NET, M365, VS Code, Bicep, etc.). Investigates topics deeply, then generates a hybrid skill storing essential knowledge locally while enabling dynamic deeper investigation.",
+    "file_count": 2,
+    "sha256": "5ae8a80bec48aa90121aac2cd7952d080c121aa80795d005c9005d90db58eff1"
+  },
+  {
+    "name": "migrating-oracle-to-postgres-data-access-code",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "migrating-oracle-to-postgres-data-access-code",
+    "description": "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader usage, fixes DbType mappings, updates stored procedure invocation patterns, and adapts connection string configuration. Use when migrating the application code layer of a .NET project during an Oracle-to-PostgreSQL database migration.'",
+    "file_count": 1,
+    "sha256": "318270c9c8cc250a6036a4073028c87240defa75b0a0b2d165255120b5a5bbd9"
+  },
+  {
+    "name": "minecraft-plugin-development",
+    "primary_category": "microsoft-ai-data",
+    "categories": [
+      "microsoft-ai-data"
+    ],
+    "source_path": "minecraft-plugin-development",
+    "description": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persistent progression, economy or profile data, configuration files, Adventure text, and version-safe API usage. Trigger for requests like \"build a Minecraft plugin\", \"add a Paper command\", \"fix a Bukkit listener\", \"create plugin.yml\", \"implement a minigame mechanic\", \"add a perk or quest system\", or \"debug server plugin behavior\".'",
+    "file_count": 9,
+    "sha256": "bd19e92042e2fa9d47fbf7e79492e44225169a962809e438e3acec9aca1f2b6c"
+  },
+  {
+    "name": "mkdocs-translations",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "mkdocs-translations",
+    "description": "Generate a language translation for a mkdocs documentation stack.'",
+    "file_count": 1,
+    "sha256": "782aa96093d10b125f75a486c9434e4a5c7d3c2ecf6c8fb8276620f032c6f4bc"
+  },
+  {
+    "name": "msgraph-sdk",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "microsoft-365"
+    ],
+    "source_path": "msgraph-sdk",
+    "description": "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth patterns (client credentials, OBO, managed identity), SDK setup, calling Graph APIs, batching, delta queries, change notifications, throttling, and permission scopes. Use when accessing Microsoft 365 data (users, mail, calendar, Teams, files, SharePoint) from any application type.'",
+    "file_count": 4,
+    "sha256": "46abbfdc01f84812857bfdc262078900bbc11be3673951de65eaae449878d977"
+  },
+  {
+    "name": "msstore-cli",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "github-copilot-actions"
+    ],
+    "source_path": "msstore-cli",
+    "description": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store apps, check submission status, publish submissions, manage package flights, set up CI/CD for Store publishing, or integrate with Partner Center. Supports Windows App SDK/WinUI, UWP, .NET MAUI, Flutter, Electron, React Native, and PWA applications.'",
+    "file_count": 1,
+    "sha256": "abaef9913fe8c0d039ed3a6966d513656882c538cc3088d9c709ad78c00c3c7e"
+  },
+  {
+    "name": "mvvm-toolkit",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "mvvm-toolkit",
+    "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia.'",
+    "file_count": 6,
+    "sha256": "eef5c9359e6c2a08e67f80f322a8e086a101bb6c928584a0a90162da0c7cb27f"
+  },
+  {
+    "name": "mvvm-toolkit-di",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "mvvm-toolkit-di",
+    "description": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, service lifetimes (Singleton / Transient / Scoped), IMessenger registration, resolving ViewModels in Views, keyed services, testing seams, and the legacy Ioc.Default escape hatch. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia.'",
+    "file_count": 2,
+    "sha256": "4634500590015fe96038d6056a38f8f8394e8faf1788bee308f23655331badba"
+  },
+  {
+    "name": "mvvm-toolkit-messenger",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "mvvm-toolkit-messenger",
+    "description": "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects). Covers WeakReferenceMessenger vs StrongReferenceMessenger, IRecipient<TMessage>, RequestMessage<T> / AsyncRequestMessage<T> / CollectionRequestMessage<T>, ValueChangedMessage<T>, channels (tokens), and the ObservableRecipient activation lifecycle. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia.'",
+    "file_count": 2,
+    "sha256": "1e20b17a298adebeb9192c863e949cdb551a387205bf73b0c350b1c6a5aff572"
+  },
+  {
+    "name": "namecheap",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "namecheap",
+    "description": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains.'",
+    "file_count": 3,
+    "sha256": "de24c97908cc8abd30fb3300cadfd7884a7cf8a0fc3a05e48a863493ffcbf2cb"
+  },
+  {
+    "name": "nano-banana-pro-openrouter",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "nano-banana-pro-openrouter",
+    "description": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output.'",
+    "file_count": 3,
+    "sha256": "7dc56ddabae20c522e7ebf396ce3c23d481485cb011a4597d9c2eb7424b60b91"
+  },
+  {
+    "name": "napkin",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "napkin",
+    "description": "Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share everything back with Copilot. Copilot sees your drawings and text, and responds with analysis, suggestions, and ideas.'",
+    "file_count": 7,
+    "sha256": "f3159d521bbcb64917b6e7b41cded5037a32b6cdb74c5cfe607b8f62266c1f9d"
+  },
+  {
+    "name": "nuget-manager",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "nuget-manager",
+    "description": "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict procedures for direct file edits only when updating versions.'",
+    "file_count": 1,
+    "sha256": "9081279ef0313a18766c8f03422de9ef31765212d31b13a513e66f39427b4e38"
+  },
+  {
+    "name": "oo-component-documentation",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "oo-component-documentation",
+    "description": "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs.'",
+    "file_count": 4,
+    "sha256": "e73eb40982936dd765c3d489b326079f213ba7df438b7a4a5489fa0cb2b42afd"
+  },
+  {
+    "name": "optimize-simplicite-logs",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "optimize-simplicite-logs",
+    "description": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON.",
+    "file_count": 3,
+    "sha256": "fe44199c1d52d6a39223245f32550a0c7e72566b0132387b1ee6fa10e4d5bed9"
+  },
+  {
+    "name": "pdftk-server",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "pdftk-server",
+    "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line.'",
+    "file_count": 6,
+    "sha256": "a550ce06418c31de33eac1daf2be3699722bbb1543b4e61b16a2fab1e7a17e81"
+  },
+  {
+    "name": "penpot-uiux-design",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "penpot-uiux-design",
+    "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".'",
+    "file_count": 5,
+    "sha256": "4f1e31c72780e296ac2121d4bc3e6bd127d6d1f22eb42d7da5d924facb7d0f47"
+  },
+  {
+    "name": "pester-migration",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "pester-migration",
+    "description": "Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5, and v5→v6. Covers the Discovery/Run two-phase model, moving setup into BeforeAll, $PSScriptRoot vs $MyInvocation, mock changes (Assert-MockCalled → Should -Invoke, removed fall-through), Invoke-Pester parameters → PesterConfiguration, data-driven -ForEach/-TestCases, and the v6 breaking changes. Use when the user asks to upgrade, migrate, or modernize Pester tests, fix *.Tests.ps1 files that broke after bumping the Pester version, or convert legacy Should / Invoke-Pester syntax.'",
+    "file_count": 4,
+    "sha256": "2d7c0ef3a8727ba971d6fdf2438ec9710d43ce49f7dcc6c9143cf9c7f82f80ec"
+  },
+  {
+    "name": "pester-should-migration",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "pester-should-migration",
+    "description": "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no space), e.g. `Should -Be` -> `Should-Be`, `Should -Not -Be` -> `Should-NotBe`. Tracks Pester 6, which is still a release candidate, so this guidance may change; verified against Pester 6.0.0-rc2. Use when converting Pester v5 assertions to Pester v6 Should-* operators, modernizing a Pester test suite, or when a user asks to migrate, convert, or rewrite `Should -...` calls in .Tests.ps1 / PowerShell files.'",
+    "file_count": 2,
+    "sha256": "56990214b04b60d7dc1a53434ae8259a1ebacb72b38276d96bd2904b748b8f90"
+  },
+  {
+    "name": "planning-oracle-to-postgres-migration-integration-testing",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "planning-oracle-to-postgres-migration-integration-testing",
+    "description": "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify repositories, DAOs, and service layers that interact with the database, then produces a structured testing plan. Use when planning integration test coverage for a migrated project, identifying which data access methods need tests, or preparing for Oracle-to-PostgreSQL migration validation.'",
+    "file_count": 1,
+    "sha256": "00fb60907c69314a769278bdf25ed99c84b80eefcda2c63564b64030a1315130"
+  },
+  {
+    "name": "power-apps-code-app-scaffold",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "visual-studio-vscode",
+      "microsoft-365",
+      "microsoft-ai-data"
+    ],
+    "source_path": "power-apps-code-app-scaffold",
+    "description": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration'",
+    "file_count": 1,
+    "sha256": "6d09e31150a185313f7fc8c001814edea2710810f25f07991f16b7a3dad20352"
+  },
+  {
+    "name": "power-bi-dax-optimization",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "power-bi-dax-optimization",
+    "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.'",
+    "file_count": 1,
+    "sha256": "e98206e9864acfbfec475a1213c2687c293f0ed9e4903b6a9dc271ff313d0944"
+  },
+  {
+    "name": "power-bi-model-design-review",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "power-bi-model-design-review",
+    "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.'",
+    "file_count": 1,
+    "sha256": "0e1f4a853086b048036dbd6f21527c3557713d76bb036b4c0b51c370d73ea264"
+  },
+  {
+    "name": "power-bi-performance-troubleshooting",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365",
+      "microsoft-ai-data"
+    ],
+    "source_path": "power-bi-performance-troubleshooting",
+    "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.'",
+    "file_count": 1,
+    "sha256": "93b5d254c846d138ed8e60395f71e2e61c10826b2f53db24be5b13125f11ffb0"
+  },
+  {
+    "name": "power-bi-report-design-consultation",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "power-bi-report-design-consultation",
+    "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.'",
+    "file_count": 1,
+    "sha256": "12dacbd64cd67369f810c094dc70427d4805788f4ec6b1257e17d8e6aed74cf1"
+  },
+  {
+    "name": "power-platform-architect",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode",
+      "microsoft-365"
+    ],
+    "source_path": "power-platform-architect",
+    "description": "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform solution architecture, including component selection and Mermaid.js diagrams.",
+    "file_count": 1,
+    "sha256": "536111d4874719e42543d2a43595755f2a83cb02c137df465b37663a0cf01df7"
+  },
+  {
+    "name": "power-platform-mcp-connector-suite",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "power-platform-mcp-connector-suite",
+    "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation'",
+    "file_count": 1,
+    "sha256": "da3f7078803c9e4fd25ee50de3b6f2de1a480e6e1509d8338520a04e2596d9c1"
+  },
+  {
+    "name": "powerbi-modeling",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365",
+      "microsoft-ai-data"
+    ],
+    "source_path": "powerbi-modeling",
+    "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance.'",
+    "file_count": 6,
+    "sha256": "e22cc1880ea00f22e927486a3cf04bd670cc22c1d0ef5696afe1cb6def10a4ea"
+  },
+  {
+    "name": "pr-screenshots",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "pr-screenshots",
+    "description": "Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and sizing best practices.'",
+    "file_count": 1,
+    "sha256": "ff7ffe37e28f3a4461bad1a73f0ef27ce91dc65334341aceec1de72acb44cf27"
+  },
+  {
+    "name": "premium-frontend-ui",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "premium-frontend-ui",
+    "description": "A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.'",
+    "file_count": 1,
+    "sha256": "e7f3d02a0233beafdd6fe5335427388109b9699ebcdc6a8782a8bada2826d916"
+  },
+  {
+    "name": "project-workflow-analysis-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "project-workflow-analysis-blueprint-generator",
+    "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.'",
+    "file_count": 1,
+    "sha256": "3d55c341daf416e131919657ef92616619bfa52b6caea81029b79a64e4f958a3"
+  },
+  {
+    "name": "publish-to-pages",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "publish-to-pages",
+    "description": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages.'",
+    "file_count": 4,
+    "sha256": "455e16677960733d3a86fdf3002ccbe1c202bb7fbffe7847527a06c8267db95a"
+  },
+  {
+    "name": "python-azure-iot-edge-modules",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "python-azure-iot-edge-modules",
+    "description": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks.'",
+    "file_count": 3,
+    "sha256": "9dad8426d49009a275248f44d4a107adc30dd2a1a58d609527dc6d177c00b83c"
+  },
+  {
+    "name": "python-pypi-package-builder",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "python-pypi-package-builder",
+    "description": "End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyPI. Covers all four build backends (setuptools+setuptools_scm, hatchling, flit, poetry), PEP 440 versioning, semantic versioning, dynamic git-tag versioning, OOP/SOLID design, type hints (PEP 484/526/544/561), Trusted Publishing (OIDC), and the full PyPA packaging flow. Use for: creating Python packages, pip-installable SDKs, CLI tools, framework plugins, pyproject.toml setup, py.typed, setuptools_scm, semver, mypy, pre-commit, GitHub Actions CI/CD, or PyPI publishing.'",
+    "file_count": 11,
+    "sha256": "8715e6246d607208049015bbb4cecc0ff8a0a63aab510ef11db2de55153bbffd"
+  },
+  {
+    "name": "qdrant-clients-sdk",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "qdrant-clients-sdk",
+    "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.\"",
+    "file_count": 1,
+    "sha256": "141f4f633e3b60d94149f4bd573d6106ee2eb7ab070dc99249a221d173c01946"
+  },
+  {
+    "name": "remember",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "remember",
+    "description": "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`.'",
+    "file_count": 1,
+    "sha256": "fdbc1d3eca3219bfbdfca7309036aa78f52ea0ac845c0a1e2fb66284365bc637"
+  },
+  {
+    "name": "rhino3d-scripts",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "rhino3d-scripts",
+    "description": "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write RhinoScript (VBScript / .rvb / .vbs), RhinoPython, or RhinoCommon-based scripts; automate Rhino modeling tasks; build command macros; manipulate Rhino geometry, layers, blocks, or document objects; pick objects from the viewport; control redraw and undo; or load and run scripts from the Rhino Script Editor. Covers `rhinoscriptsyntax`, `scriptcontext`, the `Rhino.*` RhinoCommon namespaces (`Rhino.Geometry`, `Rhino.DocObjects`, `Rhino.Input`, `Rhino.UI`, `Rhino.Display`, `Rhino.FileIO`), and the Rhino 8 unified Script Editor.'",
+    "file_count": 5,
+    "sha256": "2fda98d502fc6f9486f23ed9b257ec54c39b91dbdea7fcdbdff6be85fc69cdc1"
+  },
+  {
+    "name": "scaffolding-oracle-to-postgres-migration-test-project",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "scaffolding-oracle-to-postgres-migration-test-project",
+    "description": "Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager. Use only during Phase 3, before writing Oracle baseline integration tests. Do not invoke during Phase 6 — the PostgreSQL test project is produced by migrating this project, not by running this skill again.'",
+    "file_count": 1,
+    "sha256": "85f7027bf84288a9e1621eec2160b6ef02ec80ef71c2900c7bd2c94652f1361f"
+  },
+  {
+    "name": "security-review",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "security-review",
+    "description": "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching vulnerabilities that pattern-matching tools miss. Use this skill when asked to scan code for security vulnerabilities, find bugs, check for SQL injection, XSS, command injection, exposed API keys, hardcoded secrets, insecure dependencies, access control issues, or any request like \"is my code secure?\", \"review for security issues\", \"audit this codebase\", or \"check for vulnerabilities\". Covers injection flaws, authentication and access control bugs, secrets exposure, weak cryptography, insecure dependencies, and business logic issues across JavaScript, TypeScript, Python, Java, PHP, Go, Ruby, and Rust.'",
+    "file_count": 6,
+    "sha256": "a0fc25587c016178c9cf6238ac8702695fa761694965192472487f92093db571"
+  },
+  {
+    "name": "semantic-kernel",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "microsoft-ai-data"
+    ],
+    "source_path": "semantic-kernel",
+    "description": "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.'",
+    "file_count": 3,
+    "sha256": "31fb0f54078cf5b47c114c39644afbb2cd6d5f766ab037d95ebd3dd3b21a5f04"
+  },
+  {
+    "name": "server-side-conversion-tracking",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "server-side-conversion-tracking",
+    "description": "Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google and Bing despite iOS restrictions, ad blockers and cookie loss. Use when conversions are under-reported, when platform-reported purchases do not match real orders, when asked about Conversions API / Events API / offline conversions / CAPI, click id passthrough (fbclid, ttclid, gclid, msclkid), or when ad optimization has degraded after tracking changes.",
+    "file_count": 1,
+    "sha256": "7e7e012d88e4af05b07dbe723d73566d47a69408a2435fb33df742838fa4fbbb"
+  },
+  {
+    "name": "setup-my-iq",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "setup-my-iq",
+    "description": "|",
+    "file_count": 8,
+    "sha256": "30da196c54ed0a5be0d3cad6c6dd45a5287814e580e1e0e71aa3f6a11df9084b"
+  },
+  {
+    "name": "sponsor-finder",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "sponsor-finder",
+    "description": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm funding metadata, FUNDING.yml files, and web search. Verifies every link. Shows direct and transitive dependencies with OSSF Scorecard health data. Invoke with /sponsor followed by a GitHub owner/repo (e.g. \"/sponsor expressjs/express\").",
+    "file_count": 1,
+    "sha256": "155923073dbbfd9b567c770a5b936619c98768816916d204b6310c456e99dc4f"
+  },
+  {
+    "name": "sql-code-review",
+    "primary_category": "microsoft-ai-data",
+    "categories": [
+      "microsoft-ai-data"
+    ],
+    "source_path": "sql-code-review",
+    "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage.'",
+    "file_count": 1,
+    "sha256": "7dd337a3271381237c5ace34f9a9a525f73e1a4f93a48321044b00fcd5f95942"
+  },
+  {
+    "name": "sql-optimization",
+    "primary_category": "microsoft-ai-data",
+    "categories": [
+      "microsoft-ai-data"
+    ],
+    "source_path": "sql-optimization",
+    "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.'",
+    "file_count": 1,
+    "sha256": "47c930907f25d67454ac8c2d155785eae3dce72242960d0c0e9ebf2ced9cd231"
+  },
+  {
+    "name": "sql-server-table-reconciliation",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "microsoft-365",
+      "microsoft-ai-data"
+    ],
+    "source_path": "sql-server-table-reconciliation",
+    "description": "Use when: comparing SQL Server tables across instances, data migration validation, ETL verification, row mismatch detection, schema drift, reconciliation report, production vs staging comparison. Uses mssql-python driver with Apache Arrow for fast columnar data transfer and comparison.\"",
+    "file_count": 2,
+    "sha256": "a5ed8872caaf65759d3d85f8ddd7c48384ba7a17c56cbd1af469829e77feed70"
+  },
+  {
+    "name": "ssma-console",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "microsoft-ai-data"
+    ],
+    "source_path": "ssma-console",
+    "description": "Use when: SSMA console operations — create project, generate assessment report, convert schema, migrate data, Oracle to SQL Server migration, schema conversion, data migration\"",
+    "file_count": 1,
+    "sha256": "559f7a8c2be015805b65aa1cf063656b5484012ae226668dd540f6f11a7a13cd"
+  },
+  {
+    "name": "structured-autonomy-plan",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "structured-autonomy-plan",
+    "description": "Structured Autonomy Planning Prompt'",
+    "file_count": 1,
+    "sha256": "a23272e52745d64fdc2469ccbe8f0d3ec7edb52e8f056ee5504a5982829e8463"
+  },
+  {
+    "name": "suggest-awesome-github-copilot-agents",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "suggest-awesome-github-copilot-agents",
+    "description": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates.'",
+    "file_count": 1,
+    "sha256": "974e629421e71810c7462b606262012d3cccb85dcfd9d595a25ab66620f78c76"
+  },
+  {
+    "name": "suggest-awesome-github-copilot-instructions",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "suggest-awesome-github-copilot-instructions",
+    "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.'",
+    "file_count": 1,
+    "sha256": "d2545b97b786f573aea63664e73a9ffbd619d5390a6c6e287f235f6f41ad1108"
+  },
+  {
+    "name": "suggest-awesome-github-copilot-skills",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "suggest-awesome-github-copilot-skills",
+    "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.'",
+    "file_count": 1,
+    "sha256": "326ab63e60c60b2880781cc05e7289c911612e4d74c71b3bbaf8cad2c531ab8e"
+  },
+  {
+    "name": "system-commandline-cli",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "system-commandline-cli",
+    "description": "Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine. Triggers include: creating a new CLI command, adding options or arguments, wiring command handlers, registering subcommands, building command groups, or any architecture decision about CLI command structure. Also use when the user mentions 'System.CommandLine', 'CommandBase', 'SetAction', 'ParseResult', 'RootCommand', 'subcommand', or asks to add a verb to the CLI. Do NOT use for general C# coding, web APIs, UI work, or non-CLI projects.\"",
+    "file_count": 1,
+    "sha256": "e8b4417caefda94a9be4eb68d604d88d9de2cf46edad266e7163728149736d56"
+  },
+  {
+    "name": "technology-stack-blueprint-generator",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet"
+    ],
+    "source_path": "technology-stack-blueprint-generator",
+    "description": "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.'",
+    "file_count": 1,
+    "sha256": "3819bfa893ce2aa75acb219991818e5daf75ce5d2b4cc6006f61c4e6dae085e4"
+  },
+  {
+    "name": "terraform-azurerm-set-diff-analyzer",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "terraform-azurerm-set-diff-analyzer",
+    "description": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes.",
+    "file_count": 6,
+    "sha256": "91fa4e814e4c5ec9684348fba7bfb671d1f8f6952bece8d9be3750ccc1433468"
+  },
+  {
+    "name": "tldr-prompt",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "tldr-prompt",
+    "description": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.'",
+    "file_count": 1,
+    "sha256": "3f5e0aec3cf4d16b8497cbdb430e2e91b952a863344d8b131bc057b7cd47f515"
+  },
+  {
+    "name": "transloadit-media-processing",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "visual-studio-vscode",
+      "github-copilot-actions"
+    ],
+    "source_path": "transloadit-media-processing",
+    "description": "Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, add subtitles, OCR documents, or run any media processing pipeline. Covers 86+ processing robots for file transformation at scale.'",
+    "file_count": 1,
+    "sha256": "f9b7f9988e6c9044182406f7466b84b6b2c6db580efff0a06906b0f15992d513"
+  },
+  {
+    "name": "typespec-api-operations",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "typespec-api-operations",
+    "description": "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards'",
+    "file_count": 1,
+    "sha256": "55f60154f528041437b53a1b4bb227b584f2b6accc1b85b625b78e07542cb9cd"
+  },
+  {
+    "name": "typespec-create-agent",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "typespec-create-agent",
+    "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot'",
+    "file_count": 1,
+    "sha256": "2cf564e4ce7004a3d227e719a33e4316d1dfcc0477136a678f87adb4da0e4f0a"
+  },
+  {
+    "name": "typespec-create-api-plugin",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "typespec-create-api-plugin",
+    "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot'",
+    "file_count": 1,
+    "sha256": "4f117e47c8da8be5b0feecf4fa02879ff54f7cabfb251e75d6bcc2b4b523e91a"
+  },
+  {
+    "name": "ui-screenshots",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows",
+      "visual-studio-vscode"
+    ],
+    "source_path": "ui-screenshots",
+    "description": "Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures, interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots.'",
+    "file_count": 1,
+    "sha256": "a69d97ff390d75e41f417180702b2e7269a81c053a016cecfc1f046266e41bde"
+  },
+  {
+    "name": "update-avm-modules-in-bicep",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure"
+    ],
+    "source_path": "update-avm-modules-in-bicep",
+    "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.'",
+    "file_count": 1,
+    "sha256": "8071b53c14b949325cb055b69eb44afee07d5166d73ab5799205377880198277"
+  },
+  {
+    "name": "update-specification",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "github-copilot-actions"
+    ],
+    "source_path": "update-specification",
+    "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.'",
+    "file_count": 1,
+    "sha256": "56ce126a1040962dd6ea73f6210bef8e9742d35e3d2886ace64a6d9735e4f647"
+  },
+  {
+    "name": "vardoger-analyze",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "vardoger-analyze",
+    "description": "Use when the user asks to personalize the GitHub Copilot CLI assistant, adapt Copilot to their style, use vardoger, or analyze their Copilot CLI conversation history. Reads the local session directory at `~/.copilot/session-state/`, extracts recurring preferences and conventions, and writes a fenced personalization block into `~/.copilot/copilot-instructions.md`. Runs entirely on the user's machine via the local `vardoger` CLI (`pipx install vardoger`); no network calls and no uploads. Triggers: 'personalize my copilot', 'analyze my copilot history', 'tailor copilot to me', 'run vardoger', 'update my copilot instructions from history', 'make copilot learn my style'.\"",
+    "file_count": 1,
+    "sha256": "7cd27bf876e5713fb0aee2c5f524a8a3ca2c3bebd26997552f761e49e90007f7"
+  },
+  {
+    "name": "vcpkg",
+    "primary_category": "azure-infrastructure",
+    "categories": [
+      "azure-infrastructure",
+      "dotnet-aspnet",
+      "powershell-windows",
+      "visual-studio-vscode",
+      "github-copilot-actions"
+    ],
+    "source_path": "vcpkg",
+    "description": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integration, classic-to-manifest migration, version pinning, baselines, overrides, triplets, and cross-compilation. Use when a user is working with vcpkg project setup, installation, version management, or cross-platform builds. For specialized tasks, additional references cover custom registries and overlay ports (references/registries.md), CI/CD and binary caching (references/ci.md), and troubleshooting and dependency lifecycle (references/troubleshooting.md).'",
+    "file_count": 4,
+    "sha256": "f26a092177e642b57735a59bf6a93c7c64d3593bbb0b5cb062787ed4ddb61014"
+  },
+  {
+    "name": "vscode-ext-commands",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "vscode-ext-commands",
+    "description": "Guidelines for contributing commands in VS Code extensions. Indicates naming convention, visibility, localization and other relevant attributes, following VS Code extension development guidelines, libraries and good practices'",
+    "file_count": 1,
+    "sha256": "26c40c1adb82b80a88e2e4b11307924e9f5cdc19c5c0cbb2a96aa02535034f70"
+  },
+  {
+    "name": "vscode-ext-localization",
+    "primary_category": "visual-studio-vscode",
+    "categories": [
+      "visual-studio-vscode"
+    ],
+    "source_path": "vscode-ext-localization",
+    "description": "Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices'",
+    "file_count": 1,
+    "sha256": "d35790138865dae71d8627c11c398b3eda6f00c23f34f51f9b6fd01ed1e21ced"
+  },
+  {
+    "name": "winmd-api-search",
+    "primary_category": "dotnet-aspnet",
+    "categories": [
+      "dotnet-aspnet",
+      "powershell-windows"
+    ],
+    "source_path": "winmd-api-search",
+    "description": "Find and explore Windows desktop APIs. Use when building features that need platform capabilities — camera, file access, notifications, UI controls, AI/ML, sensors, networking, etc. Discovers the right API for a task and retrieves full type details (methods, properties, events, enumeration values).'",
+    "file_count": 9,
+    "sha256": "32162739f4b5e9933e2aa5deafde67a4e5d675096159fcf25aef5c09ab1ff80f"
+  },
+  {
+    "name": "winui3-migration-guide",
+    "primary_category": "powershell-windows",
+    "categories": [
+      "powershell-windows"
+    ],
+    "source_path": "winui3-migration-guide",
+    "description": "UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threading (CoreDispatcher to DispatcherQueue), windowing (CoreWindow to AppWindow), dialogs, pickers, sharing, printing, background tasks, and the most common Copilot code generation mistakes.'",
+    "file_count": 1,
+    "sha256": "117001488fd02eb4cd9e4e6c24ba7270e729e2717c81c3387290ed624865be39"
+  },
+  {
+    "name": "workiq-copilot",
+    "primary_category": "microsoft-365",
+    "categories": [
+      "microsoft-365"
+    ],
+    "source_path": "workiq-copilot",
+    "description": "Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, summaries, and recommendations.'",
+    "file_count": 1,
+    "sha256": "666b1ab2c3ffba956b936304fb00397b7c82d1fce29d7fb10818cd5ffeed1f36"
+  },
+  {
+    "name": "x-twitter-scraper",
+    "primary_category": "github-copilot-actions",
+    "categories": [
+      "github-copilot-actions"
+    ],
+    "source_path": "x-twitter-scraper",
+    "description": "Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, hosted Apify Actor runs, MCP tools, TweetClaw OpenClaw plugin installs, signed webhooks, tweet search, user lookup, follower exports, media actions, and agent automation.'",
+    "file_count": 1,
+    "sha256": "1a0c1ffed55fe1bd2ad548f912153a2b0b1acc60cb6e5de2fd1e096776600ea0"
+  }
+]
